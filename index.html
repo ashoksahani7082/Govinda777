@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#008780" />
+  <meta name="description" content="Govinda777 official Android app download page." />
+  <title>Govinda777 | Official App</title>
   <!-- Meta Pixel Code -->
   <script>
   !function(f,b,e,v,n,t,s)
@@ -18,60 +23,137 @@
   src="https://www.facebook.com/tr?id=1833566067888149&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#031b13" />
-  <meta name="description" content="Govinda777 — official app download page." />
-  <title>Govinda777 | Official App</title>
   <style>
-    :root{color-scheme:dark;--bg:#03150f;--green:#00d68f;--mint:#9affd5;--text:#f4fff9;--muted:#a8c7b8}
+    :root{--teal:#008780;--teal-dark:#006d68;--teal-pale:#e7f5f3;--yellow:#ffd400;--ink:#172b2a;--muted:#667876;--white:#fff;--line:#e5eeec}
     *{box-sizing:border-box}
-    body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text);background:radial-gradient(ellipse at 50% 10%,rgba(0,214,143,.19),transparent 38%),radial-gradient(circle at 10% 80%,rgba(0,120,78,.16),transparent 28%),linear-gradient(145deg,#020b08,#06251a 55%,#03140e);display:grid;place-items:center;overflow-x:hidden;padding:28px 16px}
-    body:before,body:after{content:"";position:fixed;width:280px;height:280px;border:1px solid rgba(0,214,143,.14);border-radius:50%;pointer-events:none;animation:float 10s ease-in-out infinite}
-    body:before{top:8%;left:-150px;box-shadow:0 0 80px rgba(0,214,143,.08)}
-    body:after{right:-160px;bottom:5%;animation-delay:-5s}
-    .wrap{width:min(100%,480px);position:relative;z-index:1}
-    .topline{display:flex;justify-content:center;align-items:center;gap:8px;margin-bottom:18px;color:var(--mint);font-size:11px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase}
-    .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green)}
-    .card{position:relative;text-align:center;padding:38px 28px 30px;border:1px solid rgba(92,255,190,.28);border-radius:28px;background:linear-gradient(160deg,rgba(13,57,40,.88),rgba(4,24,16,.94));box-shadow:0 24px 90px rgba(0,0,0,.42),inset 0 1px rgba(255,255,255,.07);backdrop-filter:blur(18px);overflow:hidden}
-    .card:before{content:"";position:absolute;inset:0 15% auto;height:1px;background:linear-gradient(90deg,transparent,var(--green),transparent);opacity:.8}
-    .logo{width:116px;height:116px;margin:0 auto 23px;border-radius:28px;display:grid;place-items:center;background:linear-gradient(145deg,#eafff5,#b5ffdf);color:#06442e;font-size:36px;font-weight:950;letter-spacing:-3px;box-shadow:0 0 0 7px rgba(0,214,143,.08),0 12px 40px rgba(0,214,143,.2);border:1px solid rgba(255,255,255,.75)}
-    h1{font-size:clamp(31px,8vw,42px);line-height:1.05;letter-spacing:-1.5px;margin:0;font-weight:900}
-    h1 span{color:var(--green)}
-    .sub{margin:13px auto 0;color:var(--muted);font-size:14px;line-height:1.65;max-width:310px}
-    .rule{height:1px;background:linear-gradient(90deg,transparent,rgba(135,255,207,.2),transparent);margin:26px 0}
-    .app-info{display:flex;align-items:center;justify-content:center;gap:9px;color:#d7f8e8;font-size:12px;margin-bottom:20px}
-    .app-info svg{color:var(--green)}
-    .download{display:flex;align-items:center;justify-content:center;gap:11px;width:100%;min-height:58px;padding:15px 20px;border-radius:15px;text-decoration:none;color:#032317;font-size:16px;font-weight:900;letter-spacing:.2px;background:linear-gradient(110deg,#65ffc1,#00d68f 55%,#00b879);box-shadow:0 10px 28px rgba(0,214,143,.25),inset 0 1px rgba(255,255,255,.7);transition:transform .2s,box-shadow .2s}
-    .download:hover{transform:translateY(-3px);box-shadow:0 15px 36px rgba(0,214,143,.36)}
-    .download:active{transform:translateY(0)}
-    .note{font-size:11px;color:#86aa99;margin:15px 0 0}
-    footer{text-align:center;color:#709584;font-size:11px;margin-top:19px;letter-spacing:.3px}
-    @keyframes float{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-18px) rotate(8deg)}}
-    @media(max-width:420px){.card{padding:32px 20px 26px;border-radius:23px}.logo{width:102px;height:102px;font-size:32px}}
-    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:#fff;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    a{color:inherit}
+    .site-header{height:76px;display:flex;align-items:center;border-bottom:1px solid var(--line);background:#fff}
+    .nav{width:min(1120px,calc(100% - 40px));margin:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-size:23px;font-weight:900;letter-spacing:-.8px;color:var(--teal)}
+    .brand-mark{width:36px;height:36px;border-radius:11px;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:16px;font-weight:950;box-shadow:4px 4px 0 var(--yellow)}
+    .brand span:last-child{color:#e5b900}
+    .nav-links{display:flex;align-items:center;gap:28px;font-size:13px;font-weight:700;color:#52615f}
+    .nav-links a{text-decoration:none;transition:color .2s}
+    .nav-links a:hover{color:var(--teal)}
+    .nav-cta{padding:11px 17px;border-radius:9px;background:var(--yellow);color:#24302d!important}
+    .hero{position:relative;overflow:hidden;background:var(--teal);color:#fff}
+    .hero:before{content:"";position:absolute;width:520px;height:520px;border:1px solid rgba(255,255,255,.13);border-radius:50%;right:-160px;top:-270px}
+    .hero:after{content:"";position:absolute;width:330px;height:330px;border:1px solid rgba(255,255,255,.13);border-radius:50%;right:-65px;top:-175px}
+    .hero-inner{position:relative;z-index:1;width:min(1120px,calc(100% - 40px));min-height:475px;margin:auto;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:48px;padding:68px 0}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;padding:8px 12px;border:1px solid rgba(255,255,255,.28);border-radius:999px;color:#e4fffb;font-size:11px;font-weight:850;letter-spacing:1.7px;text-transform:uppercase}
+    .eyebrow i{width:7px;height:7px;border-radius:50%;background:var(--yellow);box-shadow:0 0 0 4px rgba(255,212,0,.17)}
+    h1{font-size:clamp(38px,5.3vw,64px);line-height:1.03;letter-spacing:-2.6px;margin:22px 0 18px;font-weight:950;max-width:650px}
+    h1 .highlight{color:var(--yellow)}
+    .hero-copy{max-width:540px;color:rgba(255,255,255,.84);font-size:16px;line-height:1.75;margin:0}
+    .hero-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:30px}
+    .download{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 25px;border-radius:12px;background:var(--yellow);color:#26312e;text-decoration:none;font-size:15px;font-weight:900;box-shadow:0 8px 0 rgba(0,73,69,.2);transition:transform .18s,box-shadow .18s}
+    .download:hover{transform:translateY(-3px);box-shadow:0 11px 0 rgba(0,73,69,.2)}
+    .download:active{transform:translateY(0);box-shadow:0 4px 0 rgba(0,73,69,.2)}
+    .small-note{font-size:12px;color:rgba(255,255,255,.75)}
+    .visual{position:relative;min-height:300px;display:grid;place-items:center}
+    .orbit{position:absolute;width:310px;height:310px;border:1px solid rgba(255,255,255,.28);border-radius:50%}
+    .orbit:before,.orbit:after{content:"";position:absolute;border:1px dashed rgba(255,255,255,.25);border-radius:50%;inset:24px}
+    .orbit:after{inset:52px}
+    .app-tile{position:relative;width:190px;height:220px;border-radius:30px;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;transform:rotate(5deg);box-shadow:18px 22px 0 rgba(0,67,63,.22),0 22px 55px rgba(0,0,0,.18)}
+    .app-symbol{width:100px;height:100px;border-radius:27px;background:var(--teal-pale);display:grid;place-items:center;color:var(--teal);font-size:49px;font-weight:950;letter-spacing:-5px;border:2px solid #d0eae6}
+    .app-tile strong{font-size:19px;color:var(--teal);letter-spacing:-.4px}
+    .app-tile small{font-size:10px;color:#81918e;font-weight:750;letter-spacing:1.8px}
+    .float-tag{position:absolute;right:2%;bottom:18%;padding:12px 15px;background:var(--yellow);color:#283330;border-radius:12px;font-size:12px;font-weight:900;box-shadow:0 10px 24px rgba(0,0,0,.15);transform:rotate(-5deg)}
+    .section{width:min(1120px,calc(100% - 40px));margin:auto;padding:76px 0}
+    .section-head{text-align:center;max-width:620px;margin:0 auto 36px}
+    .kicker{color:var(--teal);font-size:11px;font-weight:900;letter-spacing:2px;text-transform:uppercase}
+    h2{margin:10px 0 10px;font-size:clamp(28px,3.4vw,39px);letter-spacing:-1.2px;color:var(--ink)}
+    .section-head p{margin:0;color:var(--muted);font-size:14px;line-height:1.7}
+    .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .feature{padding:26px 24px 25px;border:1px solid var(--line);border-radius:17px;background:#fff;box-shadow:0 9px 30px rgba(22,65,61,.045)}
+    .feature-icon{width:46px;height:46px;display:grid;place-items:center;border-radius:13px;background:var(--teal-pale);color:var(--teal);font-size:21px;font-weight:900}
+    .feature h3{margin:18px 0 8px;font-size:17px;color:var(--ink)}
+    .feature p{margin:0;color:var(--muted);font-size:13px;line-height:1.7}
+    .download-panel{width:min(1120px,calc(100% - 40px));margin:0 auto 76px;padding:34px 38px;border-radius:20px;background:var(--teal-pale);border:1px solid #d4eae6;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .download-panel h2{font-size:25px;margin:0 0 7px}
+    .download-panel p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+    .download-panel .download{flex-shrink:0}
+    footer{padding:24px 20px;text-align:center;background:#f7faf9;border-top:1px solid var(--line);color:#74827f;font-size:12px}
+    @media(max-width:760px){.nav{width:min(100% - 32px,600px)}.nav-links{gap:14px}.nav-links a:not(.nav-cta){display:none}.hero-inner{grid-template-columns:1fr;gap:20px;padding:58px 0 48px;text-align:center}.hero-copy{margin:auto}.hero-actions{justify-content:center}.visual{min-height:270px}.orbit{width:260px;height:260px}.app-tile{width:160px;height:190px}.app-symbol{width:82px;height:82px;font-size:40px}.float-tag{right:9%;bottom:10%}.feature-grid{grid-template-columns:1fr}.download-panel{align-items:flex-start;flex-direction:column;padding:28px 24px}.download-panel .download{width:100%}}
+    @media(max-width:420px){.site-header{height:66px}.brand{font-size:20px}.nav-cta{padding:10px 12px;font-size:12px}.hero-inner,.section{width:calc(100% - 32px)}h1{letter-spacing:-1.7px}.hero-copy{font-size:14px}.section{padding:58px 0}.download-panel{width:calc(100% - 32px);margin-bottom:55px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <div class="topline"><span class="dot"></span> Official App Page</div>
-    <section class="card" aria-label="Govinda777 app download">
-      <div class="logo" aria-label="Govinda777 logo">G<span style="color:#00a96f">7</span></div>
-      <h1>Welcome to <span>Govinda777</span></h1>
-      <p class="sub">Your app is ready. Download the latest version using the button below.</p>
-      <div class="rule"></div>
-      <div class="app-info">
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
-        <span>Android application · APK file</span>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-mark">G7</span><span>Govinda <span>777</span></span></a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a class="nav-cta" href="#download">Get the App</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div>
+          <div class="eyebrow"><i></i> Official app page</div>
+          <h1>Meet your app.<br/><span class="highlight">Govinda777.</span></h1>
+          <p class="hero-copy">A simple place to get the Govinda777 Android app. Download the APK from the button below and follow your device's installation instructions.</p>
+          <div class="hero-actions">
+            <a class="download" href="./777govinda.apk" download="777govinda.apk">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5"/><path d="M5 17v4h14v-4"/></svg>
+              Download APK
+            </a>
+            <span class="small-note">Android application · APK file</span>
+          </div>
+        </div>
+        <div class="visual" aria-hidden="true">
+          <div class="orbit"></div>
+          <div class="app-tile">
+            <div class="app-symbol">G7</div>
+            <strong>Govinda777</strong>
+            <small>ANDROID APP</small>
+          </div>
+          <div class="float-tag">Official download</div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="features">
+      <div class="section-head">
+        <div class="kicker">App overview</div>
+        <h2>Everything starts here</h2>
+        <p>Use the official download link to get the Android application and keep the installation file handy.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <div class="feature-icon">↓</div>
+          <h3>Direct APK access</h3>
+          <p>Find the app download in one clear place, without searching through multiple pages.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">◈</div>
+          <h3>Simple experience</h3>
+          <p>A clean, mobile-friendly page designed to make the download step easy to find.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">✓</div>
+          <h3>App information</h3>
+          <p>Check that you have selected the Govinda777 APK before proceeding with installation.</p>
+        </article>
+      </div>
+    </section>
+    <section class="download-panel" id="download">
+      <div>
+        <h2>Ready to get Govinda777?</h2>
+        <p>Download the Android APK using the official button.</p>
       </div>
       <a class="download" href="./777govinda.apk" download="777govinda.apk">
-        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5"/><path d="M5 17v3h14v-3"/></svg>
-        Download App
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5"/><path d="M5 17v4h14v-4"/></svg>
+        Download APK
       </a>
-      <p class="note">Please install only after downloading the APK file.</p>
     </section>
-    <footer>© <span id="year"></span> Govinda777. All rights reserved.</footer>
   </main>
+  <footer>© <span id="year"></span> Govinda777. All rights reserved.</footer>
   <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
 </body>
 </html>
