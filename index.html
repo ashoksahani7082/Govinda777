@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#031b13" />
+  <meta name="description" content="Govinda777 — official app download page." />
+  <title>Govinda777 | Official App</title>
+  <style>
+    :root{color-scheme:dark;--bg:#03150f;--green:#00d68f;--mint:#9affd5;--text:#f4fff9;--muted:#a8c7b8}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text);background:radial-gradient(ellipse at 50% 10%,rgba(0,214,143,.19),transparent 38%),radial-gradient(circle at 10% 80%,rgba(0,120,78,.16),transparent 28%),linear-gradient(145deg,#020b08,#06251a 55%,#03140e);display:grid;place-items:center;overflow-x:hidden;padding:28px 16px}
+    body:before,body:after{content:"";position:fixed;width:280px;height:280px;border:1px solid rgba(0,214,143,.14);border-radius:50%;pointer-events:none;animation:float 10s ease-in-out infinite}
+    body:before{top:8%;left:-150px;box-shadow:0 0 80px rgba(0,214,143,.08)}
+    body:after{right:-160px;bottom:5%;animation-delay:-5s}
+    .wrap{width:min(100%,480px);position:relative;z-index:1}
+    .topline{display:flex;justify-content:center;align-items:center;gap:8px;margin-bottom:18px;color:var(--mint);font-size:11px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase}
+    .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green)}
+    .card{position:relative;text-align:center;padding:38px 28px 30px;border:1px solid rgba(92,255,190,.28);border-radius:28px;background:linear-gradient(160deg,rgba(13,57,40,.88),rgba(4,24,16,.94));box-shadow:0 24px 90px rgba(0,0,0,.42),inset 0 1px rgba(255,255,255,.07);backdrop-filter:blur(18px);overflow:hidden}
+    .card:before{content:"";position:absolute;inset:0 15% auto;height:1px;background:linear-gradient(90deg,transparent,var(--green),transparent);opacity:.8}
+    .logo{width:116px;height:116px;margin:0 auto 23px;border-radius:28px;display:grid;place-items:center;background:linear-gradient(145deg,#eafff5,#b5ffdf);color:#06442e;font-size:36px;font-weight:950;letter-spacing:-3px;box-shadow:0 0 0 7px rgba(0,214,143,.08),0 12px 40px rgba(0,214,143,.2);border:1px solid rgba(255,255,255,.75)}
+    h1{font-size:clamp(31px,8vw,42px);line-height:1.05;letter-spacing:-1.5px;margin:0;font-weight:900}
+    h1 span{color:var(--green)}
+    .sub{margin:13px auto 0;color:var(--muted);font-size:14px;line-height:1.65;max-width:310px}
+    .rule{height:1px;background:linear-gradient(90deg,transparent,rgba(135,255,207,.2),transparent);margin:26px 0}
+    .app-info{display:flex;align-items:center;justify-content:center;gap:9px;color:#d7f8e8;font-size:12px;margin-bottom:20px}
+    .app-info svg{color:var(--green)}
+    .download{display:flex;align-items:center;justify-content:center;gap:11px;width:100%;min-height:58px;padding:15px 20px;border-radius:15px;text-decoration:none;color:#032317;font-size:16px;font-weight:900;letter-spacing:.2px;background:linear-gradient(110deg,#65ffc1,#00d68f 55%,#00b879);box-shadow:0 10px 28px rgba(0,214,143,.25),inset 0 1px rgba(255,255,255,.7);transition:transform .2s,box-shadow .2s}
+    .download:hover{transform:translateY(-3px);box-shadow:0 15px 36px rgba(0,214,143,.36)}
+    .download:active{transform:translateY(0)}
+    .note{font-size:11px;color:#86aa99;margin:15px 0 0}
+    footer{text-align:center;color:#709584;font-size:11px;margin-top:19px;letter-spacing:.3px}
+    @keyframes float{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-18px) rotate(8deg)}}
+    @media(max-width:420px){.card{padding:32px 20px 26px;border-radius:23px}.logo{width:102px;height:102px;font-size:32px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="topline"><span class="dot"></span> Official App Page</div>
+    <section class="card" aria-label="Govinda777 app download">
+      <div class="logo" aria-label="Govinda777 logo">G<span style="color:#00a96f">7</span></div>
+      <h1>Welcome to <span>Govinda777</span></h1>
+      <p class="sub">Your app is ready. Download the latest version using the button below.</p>
+      <div class="rule"></div>
+      <div class="app-info">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+        <span>Android application · APK file</span>
+      </div>
+      <a class="download" href="./777govinda.apk" download="777govinda.apk">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5"/><path d="M5 17v3h14v-3"/></svg>
+        Download App
+      </a>
+      <p class="note">Please install only after downloading the APK file.</p>
+    </section>
+    <footer>© <span id="year"></span> Govinda777. All rights reserved.</footer>
+  </main>
+  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
